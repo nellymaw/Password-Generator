@@ -67,6 +67,9 @@ function generateChar() {
     if(uppercaseElement.checked){
         chars.push(getUppercase())
     }
+    if (chars.length === 0) {
+        return ""
+    }
     return chars[Math.floor(Math.random()*chars.length)]
 }
 
