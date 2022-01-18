@@ -1,3 +1,5 @@
+/*jshint esversion: 6 */
+
 const pwElement = document.getElementById('pw');
 const lenBoxElement = document.getElementById('lenBox');
 const uppercaseElement = document.getElementById('uppercaseBox');
