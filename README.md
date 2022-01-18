@@ -152,5 +152,7 @@ Favicon used was taken from [Favicon.io](https://favicon.io/favicon-converter/)
 
 [MDN Web Docs](https://developer.mozilla.org/en-US/docs/Web/API/Clipboard/writeText)
 
+[Lastpass](https://www.lastpass.com/)
+
 ## Media
 Favicon art was designed and created by me.
