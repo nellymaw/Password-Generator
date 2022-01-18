@@ -146,4 +146,8 @@ Icons used was taken from [Font Awesome](https://fontawesome.com/)
 
 Favicon used was taken from [Favicon.io](https://favicon.io/favicon-converter/)
 
+[TraversyMedia](https://www.youtube.com/watch?v=duNmhKgtcsI)
+
+[WebDevSimplified](https://www.youtube.com/watch?v=iKo9pDKKHnc)
+
 ## Media
