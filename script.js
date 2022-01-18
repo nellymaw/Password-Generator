@@ -3,9 +3,9 @@ const lenBoxElement = document.getElementById('lenBox');
 const uppercaseElement = document.getElementById('uppercaseBox');
 const lowercaseElement = document.getElementById('lowercaseBox');
 const numberElement = document.getElementById('numberBox');
-const symbolsElement = document.getElementById('symbolsBox')
-const generateBtnElement = document.getElementById('generateBtn')
-const copyElement = document.getElementById('copy')
+const symbolsElement = document.getElementById('symbolsBox');
+const generateBtnElement = document.getElementById('generateBtn');
+const copyElement = document.getElementById('copy');
 
 const uppercase = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
 const lowercase = "abcdefghijklmnopqrstuvwxyz";
@@ -43,25 +43,25 @@ function generatePassword(){
  * returns random character from uppercase string.
  */
 function getUppercase() {
-    return uppercase[Math.floor(Math.random()*uppercase.length)]
+    return uppercase[Math.floor(Math.random()*uppercase.length)];
 }
 /**
  * returns random character from lowercase string.
  */
 function getLowercase() {
-    return lowercase[Math.floor(Math.random()*lowercase.length)]
+    return lowercase[Math.floor(Math.random()*lowercase.length)];
 }
 /**
  * returns random character from numbers string.
  */
 function getNumber() {
-    return numbers[Math.floor(Math.random()*numbers.length)]
+    return numbers[Math.floor(Math.random()*numbers.length)];
 }
 /**
  * returns random character from symbols string.
  */
 function getSymbols(){
-    return symbols[Math.floor(Math.random()*symbols.length)]
+    return symbols[Math.floor(Math.random()*symbols.length)];
 }
 
 /**
@@ -72,21 +72,21 @@ function getSymbols(){
 function generateChar() {
     let chars = [];
     if(symbolsElement.checked){
-        chars.push(getSymbols())
+        chars.push(getSymbols());
     }
     if(numberElement.checked){
-        chars.push(getNumber())
+        chars.push(getNumber());
     }
     if(lowercaseElement.checked){
-        chars.push(getLowercase())
+        chars.push(getLowercase());
     }
     if(uppercaseElement.checked){
-        chars.push(getUppercase())
+        chars.push(getUppercase());
     }
     if (chars.length === 0) {
-        return ""
+        return "";
     }
-    return chars[Math.floor(Math.random()*chars.length)]
+    return chars[Math.floor(Math.random()*chars.length)];
 }
 //Event Listener for when the Generate button is clicked.
 generateBtnElement.addEventListener('click', generatePassword);
