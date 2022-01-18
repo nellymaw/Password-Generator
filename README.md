@@ -34,9 +34,6 @@ This button will run the password generator program and return a password genera
 1. Add a way to store the passwords generated in a database available only for the user.
 2. Create an app to access the password generator.
 
-## Bugs fixed
-Undefined text when no criteria is selected
-
 ## Technologies Used
 ### Languages Used
 1. [HTML5](https://en.wikipedia.org/wiki/HTML5)
@@ -88,6 +85,7 @@ Result for Mobile
 ### Test Cases
 
 ### Bug fixes
+Undefined text when no criteria is selected
 
 ### Known Bugs
 
