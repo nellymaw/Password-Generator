@@ -5,6 +5,7 @@ const lowercaseElement = document.getElementById('lowercaseBox');
 const numberElement = document.getElementById('numberBox');
 const symbolsElement = document.getElementById('symbolsBox')
 const generateBtnElement = document.getElementById('generateBtn')
+const copyElement = document.getElementById('copy')
 
 const uppercase = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
 const lowercase = "abcdefghijklmnopqrstuvwxyz";
@@ -70,3 +71,12 @@ function generateChar() {
 }
 
 generateBtnElement.addEventListener('click', generatePassword);
+
+copyElement.addEventListener('click',copyClipboard);
+pwElement.addEventListener('click',copyClipboard);
+
+function copyClipboard() {
+    var copyText = document.getElementById('pw');
+
+    navigator.clipboard.writeText(copyText.innerText);
+}

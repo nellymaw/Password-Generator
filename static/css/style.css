@@ -24,6 +24,10 @@ body{
     box-shadow: 5px 5px 5px 3px rgba(0,0,0,0.4);
 }
 
+#mainBox{
+    position:relative;
+}
+
 .pwBox{
     background-color: #fff;
     color:#000;
@@ -33,6 +37,27 @@ body{
     align-items: center;
     padding: 1rem;
     font-size:2rem;
+    cursor:pointer;
+}
+
+#copy{
+    background-color: #1b0550;
+    color: #fff;
+    border:none;
+    padding: 0.4rem;
+    font-weight: 700;
+    position:absolute;
+    bottom:78%;
+    left:100%;
+    transform: translate(10%,-30%);
+    opacity:0;
+    cursor:pointer;
+    transition: opacity 0.25s ease-in-out, transform 0.25s ease-in-out;
+}
+
+#mainBox:hover #copy{
+    opacity:1;
+    transform: translate(-40%,10%)
 }
 
 .criteriaSqr{
