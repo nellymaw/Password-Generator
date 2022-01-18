@@ -6,7 +6,7 @@ The main focus of this project is to develop a password generator that creates a
 ## User Goals
 1. Intuitive interface.
 2. Easiness to use regardless of device type.
-3. Provides the desired result (a random password) within the random algorithm available on JavaScript.
+3. Provides the desired result (a random password) within the random algorithm range available on JavaScript.
 
 ## User Stories
 1. As a visiting user I would like to be able to create a password with specific types of characters.
@@ -146,9 +146,11 @@ Icons used was taken from [Font Awesome](https://fontawesome.com/)
 
 Favicon used was taken from [Favicon.io](https://favicon.io/favicon-converter/)
 
-[Traversy_Media](https://www.youtube.com/watch?v=duNmhKgtcsI)
+[Traversy Media](https://www.youtube.com/watch?v=duNmhKgtcsI)
 
-[Web_Dev_Simplified](https://www.youtube.com/watch?v=iKo9pDKKHnc)
+[Web Dev Simplified](https://www.youtube.com/watch?v=iKo9pDKKHnc)
 
-[MDN_Web_Docs](https://developer.mozilla.org/en-US/docs/Web/API/Clipboard/writeText)
+[MDN Web Docs](https://developer.mozilla.org/en-US/docs/Web/API/Clipboard/writeText)
+
 ## Media
+Favicon art was designed and created by me.
