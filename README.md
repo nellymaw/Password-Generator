@@ -24,11 +24,11 @@ The main focus of this project is to develop a password generator that creates a
 
 The color scheme for this project used as inspiration the [Twitch.tv] (https://www.twitch.tv/) website
 
-#444444
-#481199
-#1b0550
-#ffffff
-#000000
+-#444444
+-#481199
+-#1b0550
+-#ffffff
+-#000000
 
 ## Features
 ### Password Generator box
@@ -126,6 +126,7 @@ Result for Mobile
 ![Four Characters](https://github.com/nellymaw/password-generator/blob/main/readmeContent/pwFourChar.png)
 ![Twelve specific Characters](https://github.com/nellymaw/password-generator/blob/main/readmeContent/pwTwelveCharLimited.png)
 ![Twenty Characters](https://github.com/nellymaw/password-generator/blob/main/readmeContent/pwTwentyChar.png)
+
 2. User is able to easily identify the information needed to provide to get a randomly generated password. All options are visiable from the get go.
 
 ![Generator Box](https://github.com/nellymaw/password-generator/blob/main/readmeContent/featureGeneratorBox.png)
