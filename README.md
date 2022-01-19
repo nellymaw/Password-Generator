@@ -12,11 +12,23 @@ The main focus of this project is to develop a password generator that creates a
 1. As a visiting user I would like to be able to create a password with specific types of characters.
 2. As a visiting user I would like to be able to easily identify the information that I need to provide to receive my randomly generated password.
 
-## Wireframes
-### Desktop Version
+## Design
+### Wireframes
+#### Desktop Version
+
 ![Wireframes Desktop](https://github.com/nellymaw/password-generator/blob/main/readmeContent/wireframeDesktop.png)
-### Mobile Version
+#### Mobile Version
+
 ![Wireframes Mobile](https://github.com/nellymaw/password-generator/blob/main/readmeContent/wireframeMobile.png)
+### Color scheme
+
+The color scheme for this project used as inspiration the [Twitch.tv] (https://www.twitch.tv/) website
+
+#444444
+#481199
+#1b0550
+#ffffff
+#000000
 
 ## Features
 ### Password Generator box

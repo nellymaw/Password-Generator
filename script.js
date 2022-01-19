@@ -17,25 +17,25 @@ const symbols = "!£$%^&*()_+=-#@?><";
  * Repeats generateChar function, creating a single random
  * character, for the same amount of times as the password length value
  */
-function generatePassword(){
+function generatePassword() {
     let len = lenBoxElement.value;
 
     let password = '';
 
-    if(numberElement.checked) {
+    if (numberElement.checked) {
         password += getNumber();
     }
-    if(lowercaseElement.checked) {
+    if (lowercaseElement.checked) {
         password += getLowercase();
     }
-    if(symbolsElement.checked) {
+    if (symbolsElement.checked) {
         password += getSymbols();
     }
-    if(uppercaseElement.checked) {
+    if (uppercaseElement.checked) {
         password += getUppercase();
     }
 
-    for (let i = password.length; i<len; i++) {
+    for (let i = password.length; i < len; i++) {
         const char = generateChar();
         password += char;
     }
@@ -45,25 +45,25 @@ function generatePassword(){
  * returns random character from uppercase string.
  */
 function getUppercase() {
-    return uppercase[Math.floor(Math.random()*uppercase.length)];
+    return uppercase[Math.floor(Math.random() * uppercase.length)];
 }
 /**
  * returns random character from lowercase string.
  */
 function getLowercase() {
-    return lowercase[Math.floor(Math.random()*lowercase.length)];
+    return lowercase[Math.floor(Math.random() * lowercase.length)];
 }
 /**
  * returns random character from numbers string.
  */
 function getNumber() {
-    return numbers[Math.floor(Math.random()*numbers.length)];
+    return numbers[Math.floor(Math.random() * numbers.length)];
 }
 /**
  * returns random character from symbols string.
  */
-function getSymbols(){
-    return symbols[Math.floor(Math.random()*symbols.length)];
+function getSymbols() {
+    return symbols[Math.floor(Math.random() * symbols.length)];
 }
 
 /**
@@ -73,22 +73,22 @@ function getSymbols(){
 
 function generateChar() {
     let chars = [];
-    if(symbolsElement.checked){
+    if (symbolsElement.checked) {
         chars.push(getSymbols());
     }
-    if(numberElement.checked){
+    if (numberElement.checked) {
         chars.push(getNumber());
     }
-    if(lowercaseElement.checked){
+    if (lowercaseElement.checked) {
         chars.push(getLowercase());
     }
-    if(uppercaseElement.checked){
+    if (uppercaseElement.checked) {
         chars.push(getUppercase());
     }
     if (chars.length === 0) {
         return "";
     }
-    return chars[Math.floor(Math.random()*chars.length)];
+    return chars[Math.floor(Math.random() * chars.length)];
 }
 //Event Listener for when the Generate button is clicked.
 generateBtnElement.addEventListener('click', generatePassword);
@@ -96,8 +96,8 @@ generateBtnElement.addEventListener('click', generatePassword);
 
 //event listener for when the password box is clicked and the text
 //inside is copied to the user's clipboard.
-copyElement.addEventListener('click',copyClipboard);
-pwElement.addEventListener('click',copyClipboard);
+copyElement.addEventListener('click', copyClipboard);
+pwElement.addEventListener('click', copyClipboard);
 
 
 /**

@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,26 +9,26 @@
     <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
-    <meta name="description"
-    content="A Password generator that creates passwords according to user preferences.">
+    <meta name="description" content="A Password generator that creates passwords according to user preferences.">
     <meta name="keywords" content="password,password generator, safety, cyber-security, protection">
 
     <title>Password Generator</title>
 </head>
+
 <body>
     <div id="generatorBox">
-            <h1>Password Generator</h1>
-            <div id="mainBox">
-                <div class="pwBox" id="pw"></div>
-                <button id="copy" aria-label="clipboard"><i class="fas fa-clipboard-list"></i></button>
-            </div>
+        <h1>Password Generator</h1>
+        <div id="mainBox">
+            <div class="pwBox" id="pw"></div>
+            <button id="copy" aria-label="clipboard"><i class="fas fa-clipboard-list"></i></button>
+        </div>
         <div class="criteriaSqr">
             <label for="lenBox">
                 Password Length
                 <input type="number" min="4" max="20" value="4" id="lenBox">
             </label>
         </div>
-        
+
         <div class="criteriaSqr">
             <label for="uppercaseBox">
                 Contain Uppercase letters
@@ -65,4 +66,5 @@
     <script src="script.js"></script>
     <script src="https://kit.fontawesome.com/7f75c80236.js" crossorigin="anonymous"></script>
 </body>
+
 </html>
