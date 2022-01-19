@@ -18,7 +18,7 @@ this box will contain all of the items of the password generator.
 #### Password Generated
 This box will display the password generated within the criteria specified by the user.
 #### Password length field
-This field will take the number that the input recieve and inform the program just how long the password to be generated has to be.
+This field will take the number that the input recieve and inform the program just how long the password to be generated has to be (between 4 and 20 characters).
 #### Contain Uppercase checkbox
 This option, when clicked, will add uppercase letters to the pool of available characters to be used in the password generation.
 #### Contain Lowercase checkbox
@@ -64,11 +64,14 @@ Visual Studio Code was used to build the project. Several extensions are used to
 ### Validation Results
 HTML
 
-[W3C validator](https:)
+[W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fnellymaw.github.io%2Fpassword-generator%2F)
 
 CSS
 
-[(Jigsaw) validator](https://)
+[(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fnellymaw.github.io%2Fpassword-generator%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
+
+JSHint
+[JSHint](https://jshint.com/) test completed with no error or warnings.
 
 Lighthouse
 
@@ -85,11 +88,29 @@ Result for Mobile
 ### Test Cases
 
 ### Bug fixes
-Undefined text when no criteria is selected
+Undefined text when no criteria is selected.
+Bug where even if all criterias are selected not necessarily all of them are met.
 
 ### Known Bugs
 
 ### Supported screens and browsers
+
+All mobile testing was done through Google Chrome's responsive tool.
+- Moto 4G
+- Glaxy S5
+- Pixel 2
+- Pixel 2 XL
+- iPhone 5/SE
+- iPhone 6/7/8
+- iPhone 6/7/8 Plus
+- iPhone X
+- iPad
+- iPad Pro
+- Surface Duo
+- Nest Hub
+- Nest Hub Max
+- Google Chrome
+- Mozilla Firefox
 
 ## Deployment
 
