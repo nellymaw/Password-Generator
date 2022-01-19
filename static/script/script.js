@@ -18,6 +18,7 @@ window.addEventListener('DOMContentLoaded', (event) => {
 /**
  * Repeats generateChar function, creating a single random
  * character, for the same amount of times as the password length value
+ * Returns random character * desired password length
  */
 function generatePassword() {
     let len = document.getElementById('lenBox').value;
@@ -96,6 +97,9 @@ function generateChar() {
 /**
  * Function to copy the password to the clipboard.
  */
+
 function copyClipboard() {
     navigator.clipboard.writeText(document.getElementById('pw').innerText);
+    document.getElementById('copy').innerText ='Copied';
+    setTimeout(() =>{document.getElementById('copy').innerText = 'Copy';}, 1000);
 }

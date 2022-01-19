@@ -125,6 +125,30 @@ Result for Mobile
 
 1. User is able to create a password with specific types of characters.
 
+- Password Length
+![Password Length](https://github.com/nellymaw/password-generator/blob/main/readmeContent/featureLengthField.png)
+
+- Uppercase letters
+
+![uppercaseCaseStudies](https://github.com/nellymaw/password-generator/blob/main/readmeContent/uppercaseCaseStudies.png)
+
+- Lowercase letters
+
+![lowercaseCaseStudies](https://github.com/nellymaw/password-generator/blob/main/readmeContent/lowercaseCaseStudies.png)
+
+- Numbers
+
+![numbersCaseStudies](https://github.com/nellymaw/password-generator/blob/main/readmeContent/numbersCaseStudies.png)
+
+- Symbols
+
+![symbolsCaseStudies](https://github.com/nellymaw/password-generator/blob/main/readmeContent/symbolsCaseStudies.png)
+
+2. Copy the password generated with a click.
+
+![toCopyCaseStudies](https://github.com/nellymaw/password-generator/blob/main/readmeContent/toCopyCaseStudies.png)
+
+![copiedCaseStudies](https://github.com/nellymaw/password-generator/blob/main/readmeContent/copiedCaseStudies.png)
 
 ### Bug fixes
 Undefined text when no criteria is selected.
