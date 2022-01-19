@@ -36,7 +36,7 @@ This option, when clicked, will add symbols to the pool of available characters 
 ![Contain Uppercase checkbox](https://github.com/nellymaw/password-generator/blob/main/readmeContent/featureContainSymbols.png)
 #### Generate Password Button
 This button will run the password generator program and return a password generated with the specified criteria.
-![Generate Password Button](https://github.com/nellymaw/password-generator/blob/main/readmeContent/featureGeneratedBox.png)
+![Generate Password Button](https://github.com/nellymaw/password-generator/blob/main/readmeContent/featureGenerateBtn.png)
 
 ## Future implementations
 1. Add a way to store the passwords generated in a database available only for the user.
