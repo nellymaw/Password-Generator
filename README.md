@@ -220,6 +220,11 @@ $ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY
 > remove: Total 10 (delta 1), reused 10 (delta 1)
 > Unpacking objects: 100% (10/10), done.
 ```
+### Gitpod
+
+1. Install the gitpod browser extension. [Gitpod Browser Extension](https://www.gitpod.io/docs/browser-extension/)
+2. Go to the project repository. [Password Generator](https://github.com/nellymaw/password-generator)
+3. click the gitpod button beside the about section.  [Gitpod Deploy](https://github.com/nellymaw/password-generator/blob/main/readmeContent/gitpodDeploy.png)
 
 ## Credits
 
