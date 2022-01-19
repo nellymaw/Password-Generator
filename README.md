@@ -111,8 +111,6 @@ JSHint
 
 Lighthouse
 
-
-
 Result for Desktop 
 
 ![Lighthouse Validation](https://github.com/nellymaw/password-generator/blob/main/readmeContent/lighthouseDesktopScore.png)
@@ -144,7 +142,10 @@ Result for Mobile
 
 ![symbolsCaseStudies](https://github.com/nellymaw/password-generator/blob/main/readmeContent/symbolsCaseStudies.png)
 
-2. Copy the password generated with a click.
+2. Easy to change the criteria.
+- Check/Uncheck the criteria you would like to add/remove
+
+3. Copy the password generated with a click.
 
 ![toCopyCaseStudies](https://github.com/nellymaw/password-generator/blob/main/readmeContent/toCopyCaseStudies.png)
 
