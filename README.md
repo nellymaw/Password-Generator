@@ -21,27 +21,35 @@ The main focus of this project is to develop a password generator that creates a
 ## Features
 ### Password Generator box
 this box will contain all of the items of the password generator.
+
 ![Generator Box](https://github.com/nellymaw/password-generator/blob/main/readmeContent/featureGeneratorBox.png)
 #### Password Generated
 This box will display the password generated within the criteria specified by the user.
+
 ![Password Generated Box](https://github.com/nellymaw/password-generator/blob/main/readmeContent/featureGeneratedBox.png)
 #### Password length field
 This field will take the number that the input recieve and inform the program just how long the password to be generated has to be (between 4 and 20 characters).
+
 ![Password Length Field](https://github.com/nellymaw/password-generator/blob/main/readmeContent/featureLengthField.png)
 #### Contain Uppercase checkbox
 This option, when clicked, will add uppercase letters to the pool of available characters to be used in the password generation.
+
 ![Contain Uppercase checkbox](https://github.com/nellymaw/password-generator/blob/main/readmeContent/featureContainUppercase.png)
 #### Contain Lowercase checkbox
 This option, when clicked, will add lowercase letters to the pool of available characters to be used in the password generation.
+
 ![Contain Lowercase checkbox](https://github.com/nellymaw/password-generator/blob/main/readmeContent/featureContainLowercase.png)
 #### Contain Numbers checkbox
 This option, when clicked, will add numbers to the pool of available characters to be used in the password generation.
+
 ![Contain Uppercase checkbox](https://github.com/nellymaw/password-generator/blob/main/readmeContent/featureContainNumber.png)
 #### Contain Symbols checkbox
 This option, when clicked, will add symbols to the pool of available characters to be used in the password generation.
+
 ![Contain Uppercase checkbox](https://github.com/nellymaw/password-generator/blob/main/readmeContent/featureContainSymbols.png)
 #### Generate Password Button
 This button will run the password generator program and return a password generated with the specified criteria.
+
 ![Generate Password Button](https://github.com/nellymaw/password-generator/blob/main/readmeContent/featureGenerateBtn.png)
 
 ## Future implementations
@@ -102,10 +110,12 @@ Result for Mobile
 ### Test Cases
 
 1. User is able to create a password with specific types of characters.
+
 ![Four Characters](https://github.com/nellymaw/password-generator/blob/main/readmeContent/pwFourChar.png)
 ![Twelve specific Characters](https://github.com/nellymaw/password-generator/blob/main/readmeContent/pwTwelveCharLimited.png)
 ![Twenty Characters](https://github.com/nellymaw/password-generator/blob/main/readmeContent/pwTwentyChar.png)
 2. User is able to easily identify the information needed to provide to get a randomly generated password. All options are visiable from the get go.
+
 ![Generator Box](https://github.com/nellymaw/password-generator/blob/main/readmeContent/featureGeneratorBox.png)
 
 ### Bug fixes
