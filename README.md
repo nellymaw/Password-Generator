@@ -24,11 +24,11 @@ The main focus of this project is to develop a password generator that creates a
 
 The color scheme for this project used as inspiration the [Twitch.tv] (https://www.twitch.tv/) website
 
--#444444
--#481199
--#1b0550
--#ffffff
--#000000
+- #444444
+- #481199
+- #1b0550
+- #ffffff
+- #000000
 
 ## Features
 ### Password Generator box
