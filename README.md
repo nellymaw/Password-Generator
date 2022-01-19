@@ -12,6 +12,12 @@ The main focus of this project is to develop a password generator that creates a
 1. As a visiting user I would like to be able to create a password with specific types of characters.
 2. As a visiting user I would like to be able to easily identify the information that I need to provide to receive my randomly generated password.
 
+## Wireframes
+### Desktop Version
+![Wireframes Desktop](https://github.com/nellymaw/password-generator/blob/main/readmeContent/wireframeDesktop.png)
+### Mobile Version
+![Wireframes Mobile](https://github.com/nellymaw/password-generator/blob/main/readmeContent/wireframeMobile.png)
+
 ## Features
 ### Password Generator box
 this box will contain all of the items of the password generator.
@@ -51,7 +57,7 @@ This button will run the password generator program and return a password genera
 3. [JavaScript](https://en.wikipedia.org/wiki/JavaScript)
 
 ### Frameworks, Libraries & Programs Used
-1. [Balsamiq] (https://https://balsamiq.com/)
+1. [Balsamiq](https://https://balsamiq.com/)
     Balsamiq was used to create the wireframes used on this project.
 2. [Git](https://git-scm.com/)
     Git was used for version control by utilizing the Github Desktop app to commit to Git and Push to GitHub.
@@ -94,6 +100,13 @@ Result for Mobile
 ![Lighthouse Validation](https://github.com/nellymaw/password-generator/blob/main/readmeContent/lighthouseMobileScore.png)
 
 ### Test Cases
+
+1. User is able to create a password with specific types of characters.
+![Four Characters](https://github.com/nellymaw/password-generator/blob/main/readmeContent/pwFourChar.png)
+![Twelve specific Characters](https://github.com/nellymaw/password-generator/blob/main/readmeContent/pwTwelveCharLimited.png)
+![Twenty Characters](https://github.com/nellymaw/password-generator/blob/main/readmeContent/pwTwentyChar.png)
+2. User is able to easily identify the information needed to provide to get a randomly generated password. All options are visiable from the get go.
+![Generator Box](https://github.com/nellymaw/password-generator/blob/main/readmeContent/featureGeneratorBox.png)
 
 ### Bug fixes
 Undefined text when no criteria is selected.
