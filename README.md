@@ -10,7 +10,8 @@ The main focus of this project is to develop a password generator that creates a
 
 ## User Stories
 1. As a visiting user I would like to be able to create a password with specific types of characters.
-2. As a visiting user I would like to be able to easily identify the information that I need to provide to receive my randomly generated password.
+2. As a visiting user I would like to be able to easily change the criteria.
+3. As a visiting user I would to be copy the password generated with a click.
 
 ## Design
 ### Wireframes
@@ -105,6 +106,7 @@ CSS
 [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fnellymaw.github.io%2Fpassword-generator%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
 
 JSHint
+
 [JSHint](https://jshint.com/) test completed with no error or warnings.
 
 Lighthouse
