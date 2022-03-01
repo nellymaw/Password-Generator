@@ -1,5 +1,5 @@
 # Password Generator
- 
+ [Live Website](https://nellymaw.github.io/password-generator/)
 ## Overview
 The main focus of this project is to develop a password generator that creates a password within the criteria specified by the user. The available options are as follows: Uppercase letters, lowercase letters, numbers, symbols and length of password.
 
